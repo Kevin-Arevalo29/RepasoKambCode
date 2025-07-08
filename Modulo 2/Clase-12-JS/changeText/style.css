@@ -1,0 +1,15 @@
+.titulo{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+#text1{
+    color: blue;
+}
+
+.button{
+    padding: 10px 30px;
+    color: aliceblue;
+    background-color: rgb(25, 101, 101);
+    border-radius: 10px;
+    cursor: pointer;
+}
