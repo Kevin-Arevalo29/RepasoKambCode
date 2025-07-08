@@ -1,0 +1,40 @@
+div{
+  /* border: 3px solid red; */
+}
+
+img{
+  border: 1px solid blue;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px; 
+}
+
+.contenedor_general{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.contenedor_general>div{
+  /* flex-basis: 350px; */
+  width: 350px;
+  padding: 10px;
+}
+
+.cabecera_morada{
+    background-color: blue;
+  text-align: center;
+}
+
+.agrupador_personas{
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.item{
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+}

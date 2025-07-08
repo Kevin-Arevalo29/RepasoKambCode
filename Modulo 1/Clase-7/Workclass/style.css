@@ -1,0 +1,72 @@
+table {
+    width: 100%;
+    border: 1px solid red;
+  }
+  td {
+    width: 50%;
+  }
+  div {
+    border: 1px solid blue;
+  }
+  .relativa {
+    position: relative;
+    height: 40px;
+  }
+  .absoluta {
+    position: absolute;
+    height: 30px;
+    width: 250px;
+  }
+  .izq {
+    top: 0;
+    left: 0;
+  }
+  .der {
+    top: 0;
+    left: 255px;
+  }
+  .Flotante{
+    width: 25%;
+    float:left;
+  }
+  #altura{
+    height: 40px;
+  }
+  #inline{
+    display: inline;
+  }
+  /* CONCEPTOS FLEXBOX DECLARACIONES DEL PADRE*/
+  .flex_container {
+    display:flex;
+    flex-wrap: wrap;
+  }
+  
+  .alineado-eje-principal{
+    justify-content: space-evenly;
+  }
+  
+  .separacion-gap{
+    gap: 10px;
+    gap: 10px 20px;
+    row-gap: 20px;
+    column-gap: 10px;
+  }
+  
+  /* CONCEPTOS FLEXBOX DECLARACIONES DE LOS HIJOS*/
+  .flex-item-1-d{
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 2;
+  }
+  
+  .flex-item-2-d{
+    flex-basis: 250px;
+    flex-grow: 1;
+    flex-shrink: 1;
+  }
+  
+  .flex-item-3-d{
+    /* flex-basis: 300px; */
+    flex-grow: 1;
+    flex-shrink: 1;
+  }

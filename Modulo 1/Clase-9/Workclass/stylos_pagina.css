@@ -1,0 +1,53 @@
+div{
+  border: 3px solid red;
+}
+
+img{
+  border: 5px solid blue;
+}
+
+.bloque_uno>img {
+  width: 160px;
+  height: 60px;
+}
+
+.bloque_uno {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bloque_dos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-image: ; */
+  height: 400px;
+}
+
+.bloque_tres {
+  display: flex;
+  justify-content: center;
+}
+
+.bloque_tres_interno{
+  display: flex;
+  gap: 10px;
+}
+
+.bloque_tres_interno>img{
+  width: 200px;
+  height: 250px;
+}
+
+.bloque_cuatro{
+  display: flex;
+  justify-content: center;
+}
+.bloque_cuatro_inter{
+  text-align: center;
+}
+
+.bloque_cuatro_inter>img{
+  width: 20px;
+  height: 20px;
+}

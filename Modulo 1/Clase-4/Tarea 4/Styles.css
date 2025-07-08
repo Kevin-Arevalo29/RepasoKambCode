@@ -1,0 +1,22 @@
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+    font-size: 40px;
+}
+input{
+    border: 2px solid blue;
+    border-radius: 7px;
+    padding: 5px 10px ;
+}
+button{
+    place-content: color white;
+    color: white;
+    background-color: blue;
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}

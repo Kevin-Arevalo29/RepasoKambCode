@@ -1,0 +1,29 @@
+.contenedor{
+    width: 200px;
+     border: 2px solid rgb(194, 15, 230);
+}
+.encabezado{
+    height: 50px;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top:10px ;
+}
+.apartado{
+    padding-left: 10px;
+    height: 25px;
+    display: flex;
+}
+.apartado>img{
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+}
+.informacion{
+    text-align: center;
+}
+.informacion>img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}

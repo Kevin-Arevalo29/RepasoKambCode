@@ -1,0 +1,67 @@
+/* selector universal */
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Selector etiqueta */
+  form {
+    border: 5px solid gray;
+  }
+  body {
+    background-color: aquamarine;
+  }
+  img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  /* Selectores de clase */
+  .verde{
+    color: green;
+  }
+  
+  .tamano_fuente20{
+    font-size: 20px;
+  }
+  
+  /* selectores de id */
+  #input_usr{
+    color: brown;
+    height: 50px;
+    border-radius: 15px;
+  }
+  
+  #div2{
+    color: blue;
+    font-size: 30px;
+  }
+  
+  #div4{
+    font-weight: 900;
+  }
+  
+  /* selectores de atributo */
+  [cursivo]{
+    font-style: oblique;
+    color: red;
+  }
+  
+  [cursivo="false"]{
+    font-style: italic;
+    color: gray;
+  }
+  
+  /* Combinador de hermanos(+) adyacentes */
+  img + span.pie_foto{
+    font-size: 60px;
+  } 
+  
+  /* Combinador de hijos(>) */
+  /* ul > li  */
+  /* #lista1 > li */
+  /* .lista1 > li */
+  /* .lista1 > #elemento1 */
+  #lista1 > .elementosul
+  {
+    color: purple;
+  }

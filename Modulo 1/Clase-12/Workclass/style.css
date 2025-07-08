@@ -1,0 +1,111 @@
+.grid-container{
+  display: grid;
+  grid-template-areas: 
+    'header header header header'
+    'sidebar nav nav nav'
+    'sidebar article article article'
+    'footer footer footer footer';
+}
+
+.header {
+  grid-area: header;
+  background-color: yellow;
+  color: white;
+  padding: 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: orange;
+  color: white;
+  padding: 20px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: blue;
+  color: white;
+  padding: 20px;
+}
+
+.article {
+  grid-area: article;
+  background-color: gray;
+  color: white;
+  padding: 20px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.grid-container-2 {
+  display: grid;
+  grid-template-areas: 
+  'AreaUno AreaUno AreaUno AreaUno AreaUno';
+  gap: 10px;
+  background-color: green;
+}
+
+.grid-container-2 > div {
+  background-color: aqua;
+  font-size: 20px;
+  text-align: center;
+}
+
+.item-uno {
+  grid-area: AreaUno;
+}
+
+.grid-container-3 {
+  display: grid;
+  grid-template-areas: 
+  'AreaUno AreaUno AreaUno . none'
+  'AreaUno AreaUno AreaUno . none';
+  gap: 10px;
+  background-color: green;
+}
+
+.grid-container-3 > div {
+  background-color: aqua;
+  font-size: 20px;
+  text-align: center;
+}
+
+.item-un {
+  grid-area: AreaUno;
+}
+
+.grid-container-4{
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-template-areas: 
+  'header1 header1 header1 header1 header1'
+  'main main . sidebar1 sidebar1'
+  'footer1 footer1 footer1 footer1 footer1';
+  background-color: blueviolet;
+}
+
+.header1 {
+  grid-area: header1;
+  background-color: aqua;
+}
+
+.main {
+  grid-area: main;
+  background-color: green;
+}
+
+.sidebar1 {
+  grid-area: sidebar1;
+  background-color: yellow;
+}
+
+.footer1 {
+  grid-area: footer1;
+  background-color: blue;
+}
