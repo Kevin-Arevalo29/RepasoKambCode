@@ -1,0 +1,65 @@
+/* LOGOS INICIALES */
+.posicion{
+    display: flex;  
+    justify-content: space-around;
+}
+.logo{
+    background-image: url("./imagenes/logo.png");
+    height: 50px;
+    width: 320px;
+    background-size: cover;
+
+}
+.menu{
+    background-image: url("./imagenes/hamburger-icon.png");
+    width: 40px;
+    height: 40px;
+}
+/* BANNER */
+.imagien_banner{
+    background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%), url("./imagenes/paris_banner.jpeg");
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+.Texto1{
+    padding-top: 150px;
+}
+.Texto2{
+    font-size: 50px;
+}
+
+/* PARIS */
+.posicionText{
+    padding-left: 100px;
+    
+}
+.Subtitulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
+.titulo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+/* ESTILO DE IMAGENES  */
+.fotos>img{
+    height: 400px;
+    width: 300px;
+    background-size: cover;
+}
+
+/* POSICION */
+.posicionimagen{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* TEXTO FINAL */
+.textF{
+    font-size: 20PX;
+}

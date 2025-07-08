@@ -1,0 +1,14 @@
+div {
+  border: 1px solid red;
+}
+
+.flex-container {
+  height: 300px;
+  display: flex;
+  /* Propidedad para definir el eje principal de trabajo */
+  /* row/row-reverse definen como eje principal el horizontal */
+  /* column/column-reverse definene como eje principal el vertical */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

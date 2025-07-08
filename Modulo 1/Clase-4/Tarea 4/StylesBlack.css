@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+input{
+    border: 2px solid rgb(68, 68, 156);
+    background-color: black;
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+button{
+    color: white;
+    background-color:  rgb(68, 68, 156);
+    border: 2px solid  rgb(68, 68, 156);
+    border-radius: 5px;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+}

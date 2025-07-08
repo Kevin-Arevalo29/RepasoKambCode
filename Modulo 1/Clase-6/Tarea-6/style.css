@@ -1,0 +1,53 @@
+*{
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+.pAbsolute{
+    position: absolute;
+}
+.position_relative{
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    width: 729px;
+    height: 900px;
+    margin: auto;
+}
+.foto_portada{
+    background-image: url(./Imagen-portada.jpg);
+    border-radius: 20px;
+    width: 729px;
+    height: 350px;
+}
+.foto_perfil{
+    background-image: url(./imagen-perfil.jpg);
+    width: 312px;
+    height: 310px;
+    background-size: contain;
+    border: 8px solid white;
+    border-radius: 50%;
+    top: 200px;
+    left: 200px;
+}
+.name{
+    bottom: 35%;
+    left: 34%;
+    font-size: 40px;
+    background-color: white;
+  }
+  .parrafo{
+    bottom: 20%;
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    margin: 0px 100px;
+  }
+  .button{
+    background-color: #6A14AD;
+    border-radius: 30px;
+    bottom: 5%;
+    left: 37%;
+    font-size: 20px;
+    height: 50px;
+    width: 200px;
+  }

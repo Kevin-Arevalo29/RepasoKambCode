@@ -1,0 +1,73 @@
+h1 {
+    margin: 0;
+    border: 1px solid red;
+  }
+  
+  .bordes1{
+    border: 3px dotted red;
+  }
+  
+  .bordes2{
+    border-width: 3px;
+    border-style: dashed;
+    border-color: blue;
+  }
+  
+  .bordes3 {
+    border: 3px solid red;
+  }
+  
+  .bordes4 {
+    border: 3px double green;
+  }
+  
+  .bordes5 {
+    border: 3px groove yellow;
+  }
+  
+  .bordes6 {
+    border-width: 3px;
+    border-color: red;
+    border-style: dotted dashed solid double;
+  }
+  
+  .margenes {
+    margin: 0;/*Abreviado para todos los lados*/
+    margin: 20px 40px;/*Abreviado separando superio/inferior y Derecha/izquierda*/
+    margin-top: 10px;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+  }
+  
+  .padding {
+    margin: 0;
+    border: 1px solid blue;
+    padding: 20px 0;
+  }
+  
+  #background {
+    width: 100px;
+    margin: auto;/*Uso para centrar elemento debe ir de la mano de la definicion de un ancho menor al espacio disponible (width)*/
+    /* Background */
+    background-color: blue;
+    opacity: 0.5;/*opacidad del elemento*/
+  }
+  
+  #background2 {
+    width: 100px;
+    margin: auto;/*Uso para centrar elemento debe ir de la mano de la definicion de un ancho menor al espacio disponible (width)*/
+    /* Background */
+    background-color: rgba(0, 0, 128, 0.3);/*rgba se maneja la opacidad del color*/
+  }
+  
+  .imagen {
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    background-image: url('./BoxModel.png');
+    background-size: contain;
+    /* background-repeat: repeat; */
+    opacity: 0.5;
+  }
+  

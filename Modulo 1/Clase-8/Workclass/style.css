@@ -1,0 +1,61 @@
+div {
+  border: 2px solid red;
+}
+
+.padding {
+  padding: 5px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.flex-container>div{
+  background-color: blue;
+  color: white;
+  /* width: 100px; */
+  text-align: center;
+}
+
+.padre-interno {
+  display: flex;
+  gap: 15px;
+}
+
+.super-padre{
+  display: flex;
+  justify-content: space-around;
+}
+
+.border_dos{
+  border: 4px dotted orange;
+}
+
+.flex-container-p-hijos{
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+}
+
+.flex-container-p-hijos>div{
+  background-color: red;
+  color: white;
+  width: 100px;
+  text-align: center;
+}
+.shrink2{
+  flex-shrink: 2;
+  flex-grow: 1;
+}
+
+.shrink1{
+  flex-shrink: 1;
+  flex-grow: 2;
+}
+
+.shrink0 {
+  flex-shrink: 0;
+}

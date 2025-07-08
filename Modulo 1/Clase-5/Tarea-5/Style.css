@@ -1,0 +1,37 @@
+#title{
+    padding: 20px 30px;
+    border: 2px solid blue;
+}
+#encabezado{
+    border: 2px solid red;
+    border-radius: 25px;
+    padding: 5px 10px;
+}
+ul {
+    border: 20px solid rgb(4, 159, 58);
+    border-style:double;
+}
+.box{
+    background-image: url(./imagen\ t5.jpg);
+    background-size: cover;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+div > h1{
+    padding-top: 450px;
+    font-size: 50px;
+    
+    
+}
+div > h2{
+    font-size: 30px;
+}
+div > h3{
+    border-left: 7px solid red;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+
+}

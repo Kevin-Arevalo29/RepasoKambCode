@@ -1,0 +1,67 @@
+
+.posicion-padre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tamaño{
+    height: 500px;
+    width: 340px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 7px;
+    
+}
+.diseño{
+    border-radius: 4px;
+    height: 150px;
+    background-color: rgb(60, 60, 227);
+    text-align: center;
+}
+.texto{
+    padding-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    color: white;
+}
+.texto2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    color: rgb(222, 222, 222);
+}
+.buscador{
+    margin-top: 20px;
+    height: 30px;
+    width: 290px;
+    color: white;
+    background-color: rgb(41, 41, 145);
+    border: 2px solid rgb(9, 9, 141);
+    border-radius: 50px;
+    
+}
+.contenedor{
+    height: 350px;
+    overflow-y: scroll;
+    padding-left: 10px;
+}
+.posiscionimg{
+    display: flex;
+    margin-top: 5px;
+}
+.img{
+    height: 70px;
+    width: 70px;
+    background-size: cover;
+    border-radius: 40px;
+    
+}
+
+.nombre{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pais{
+    padding-left: 10px;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
